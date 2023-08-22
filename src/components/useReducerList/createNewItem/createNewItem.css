@@ -1,0 +1,42 @@
+.createItemContainer {
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  height: fit-content;
+  padding: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 1rem;
+}
+
+.inputDiv input {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.inputDiv textArea {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.createItemContainer button {
+  width: 100%;
+}
+
+.buttonDiv {
+  margin-top: 2rem;
+}
+.buttonDiv button {
+  margin-top: 0.4rem;
+}
+
+.save {
+  background-color: green;
+}

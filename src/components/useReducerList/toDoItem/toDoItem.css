@@ -1,0 +1,28 @@
+.listItemContainer {
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  height: fit-content;
+}
+
+.completed {
+  background-color: blue;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444;
+}
+
+.titleContainer h4 {
+  flex: 3;
+  text-align: center;
+  margin: 0;
+}
+
+.editContainer {
+  display: flex;
+  justify-content: flex-end;
+}

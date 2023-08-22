@@ -1,0 +1,8 @@
+.itemContainer {
+  border: 2px white solid;
+  padding: 0.5rem;
+}
+
+.checkedBg {
+  background-color: #777;
+}

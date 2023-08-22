@@ -1,0 +1,12 @@
+.listContainer {
+  display: flex;
+  gap: 1rem;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+}
+
+.newButton {
+  height: fit-content;
+}
